@@ -48,3 +48,9 @@
 
 ```bash
 python main.py input.txt
+```
+## Вказання на revert-коміт
+
+В історії комітів репозиторію присутній revert-коміт. Наприклад, коміт з повідомленням `Revert "Added main application module with core features"`.
+
+Цей revert-коміт було створено для скасування змін, внесених у коміті "Added main application module with core features", який випадково додав файл `main.py` з помилкою. Revert дозволив відкотити зміни та повернутися до стану, який був до додавання файлу `main.py`.
